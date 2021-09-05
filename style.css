@@ -1,0 +1,60 @@
+html{
+    background-color: #595959;
+}
+.myForm{
+    width: 300px;
+    margin: auto;
+    background-color: #404040;
+    padding: 20px;
+    color: #e6e6e6;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.row{
+    width: 100%;
+}
+.inputWidth{
+    width: 96%;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+.myForm input[type=text], input[type=number]{
+    padding: 3px;
+}
+.myBtn{
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    margin: 3px 3px 3px 0px;
+}
+.myBtn:hover{
+    background-color: #666666;
+}
+.welcomeLink{
+    color: white;
+}
+.welcomeLink:hover{
+    color: grey;
+}
+.success{
+    text-align: center;
+    color: #00e600;
+    margin: 10px;
+    font-size: 20px;
+}
+.error{
+    text-align: center;
+    color: #b30000;
+    margin: 10px;
+    font-size: 20px;
+}
+.msg{
+    text-align: center;
+}
+.selectOption {
+    padding: 4px;
+    width: 49%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^secret/([^\n]+)$ getsecret.php?secret_id=$1 [NC,L]
+RewriteRule ^secret index.php?secret=true [NC,L]
